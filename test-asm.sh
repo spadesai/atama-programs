@@ -3,6 +3,7 @@
 PROGRAM_NAME="$1"
 ROOT_DIR="$(cd "$(dirname "$0")"; pwd)"
 set -e
+decline -x
 PROGRAM_DIR=$ROOT_DIR/$PROGRAM_NAME
 cd $PROGRAM_DIR/asm
 make
