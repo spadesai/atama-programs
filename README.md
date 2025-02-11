@@ -144,20 +144,6 @@ SBF_OUT_DIR="./asm/out" cargo test
 
 ## Current Programs
 
-### Helloworld
-
-Logs a static string using the `sol_log_` syscall.
-
-| Language | CU Usage |
-| --- | --- |
-| Rust | 105 |
-| Zig | 105 |
-| C | 105 |
-| Assembly | 104 |
-
-Since this is just doing a syscall, all the languages behave the same. The only
-difference is that the Assembly version *doesn't* set the return code to 0, and
-lets the VM assume it worked.
 
 ### Transfer-Lamports
 
