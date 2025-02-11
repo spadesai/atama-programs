@@ -1,6 +1,6 @@
-# solana-program-rosetta
+# solana-program-atama
 
-Multiple implementations of Solana programs across languages: Rust, Zig, C, and
+Multiple implementations of Atama Solana programs across languages: Rust, Zig, C, and
 even assembly.
 
 More programs will be added over time!
