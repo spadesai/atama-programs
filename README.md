@@ -20,7 +20,7 @@ More programs will be added over time!
 ./install-solana.sh
 ```
 
-
+* Go to a program directory
 
 ```console
 cd helloworld
