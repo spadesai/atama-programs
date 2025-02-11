@@ -5,6 +5,8 @@ even assembly.
 
 More programs will be added over time!
 
+Set Stage 1 Test
+
 ## Getting started
 
 ### Prerequisite for all languages
@@ -48,7 +50,7 @@ cargo test-sbf
 * Go to the Zig implementation of a program
 
 ```console
-cd helloworld/zig
+cd atama/zig
 ```
 
 * Build the program
@@ -67,7 +69,7 @@ SBF_OUT_DIR="./zig/zig-out/lib" cargo test
 * OR use the helper from the root of this repo to build and test
 
 ```console
-./test-zig.sh helloworld
+./test-zig.sh atama
 ```
 
 ### C
@@ -87,7 +89,7 @@ SBF_OUT_DIR="./zig/zig-out/lib" cargo test
 * Go to a program directory
 
 ```console
-cd helloworld/c
+cd atama/c
 ```
 
 * Build a program
@@ -106,7 +108,7 @@ SBF_OUT_DIR="./c/out" cargo test
 * OR use the helper from the root of this repo to build and test
 
 ```console
-./test-c.sh helloworld
+./test-c.sh atama
 ```
 
 ### Assembly
@@ -120,7 +122,7 @@ SBF_OUT_DIR="./c/out" cargo test
 * Go to a program directory
 
 ```console
-cd helloworld/asm
+cd atama/asm
 ```
 
 * Build a program
@@ -139,7 +141,7 @@ SBF_OUT_DIR="./asm/out" cargo test
 * OR use the helper from the root of this repo to build and test
 
 ```console
-./test-asm.sh helloworld
+./test-asm.sh atama
 ```
 
 ## Current Programs
@@ -156,11 +158,11 @@ a little-endian u64 in instruction data.
 | Zig | 38 |
 | C | 104 |
 | Assembly | 30 |
-| Rust (pinocchio) | 32 |
+| Rust (atama) | 32 |
 
 This one starts to get interesting since it requires parsing the instruction
 input. Since the assembly version knows exactly where to find everything, it can
-be hyper-optimized. The pinocchio version performs very closely to the assembly
+be hyper-optimized. The atama version performs very closely to the assembly
 implementation!
 
 ### CPI
