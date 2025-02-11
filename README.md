@@ -5,7 +5,6 @@ even assembly.
 
 More programs will be added over time!
 
-Set Stage 1 Test
 
 ## Getting started
 
@@ -21,7 +20,7 @@ Set Stage 1 Test
 ./install-solana.sh
 ```
 
-* Go to a program directory
+
 
 ```console
 cd helloworld
