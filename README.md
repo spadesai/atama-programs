@@ -1,4 +1,4 @@
-# solana-program-atama
+# sp-atama
 
 Multiple implementations of Atama Solana programs across languages: Rust, Zig, C, and
 even assembly.
