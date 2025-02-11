@@ -174,7 +174,7 @@ address and `invoke_signed` to CPI to the system program.
 | Rust | 3698 | 1198 |
 | Zig | 2825 | 325 |
 | C | 3122 | 622 |
-| Rust (pinocchio) | 2816 | 316 |
+| Rust (atama) | 2816 | 316 |
 
 Note: `create_program_address` consumes 1500 CUs, and `invoke` consumes 1000, so
 we can subtract 2500 CUs from each program to see the actual cost of the program
