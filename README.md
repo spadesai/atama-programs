@@ -23,7 +23,7 @@ More programs will be added over time!
 * Go to a program directory
 
 ```console
-cd helloworld
+cd atama
 ```
 
 * Build a program
